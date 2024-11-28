@@ -27,7 +27,7 @@ const Contact = () => {
               </a>{' '}
               |{' '}
               <a
-                href="https://linkedin.com/in/aryan-tyagi"
+                href="https://linkedin.com/in/aryan-tyagi-088738229"
                 target="_blank"
                 rel="noopener noreferrer"
               >

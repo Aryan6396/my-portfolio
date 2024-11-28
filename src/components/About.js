@@ -1,3 +1,6 @@
+import React from 'react';
+import profileImage from '../assets/profile.png'; // Import the image
+
 const About = () => {
   return (
     <section id="about">
@@ -6,7 +9,7 @@ const About = () => {
           {/* Image Section */}
           <div className="col-lg-5 text-center">
             <img
-              src="C:\Users\ASUS\OneDrive\Desktop\new portfolio\my-portfolio\public\logo192.png"
+              src={profileImage} // Use the imported image here
               alt="Aryan Tyagi"
               className="img-fluid rounded-circle shadow-lg"
             />
@@ -30,7 +33,7 @@ const About = () => {
               Beyond coding, I am an avid reader and a sports enthusiast. Cricket has instilled in me a strong sense of 
               teamwork and strategy, which I bring to every collaboration and project I undertake.
             </p>
-            <div className="btn-container mt-4">
+            <div className="btn-container1 mt-4">
               <a
                 href="#contact"
                 className="btn btn-primary shadow-sm btn-lg rounded-pill"

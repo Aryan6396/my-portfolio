@@ -117,17 +117,20 @@ body {
   }
   
   img {
+    height:500px;
+    width:500px;
     border-radius: 50%;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   }
   
-  .btn-container .btn {
+  .btn-container1 .btn {
     background: linear-gradient(to right, #1a73e8, #4285f4);
     color: #fff;
     font-size: 1.2rem;
     padding: 12px 30px;
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
+    margin-left:230px
   }
   
   .btn-container .btn:hover {

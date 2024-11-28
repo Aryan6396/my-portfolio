@@ -12,7 +12,7 @@ const Footer = () => {
               <a href="https://github.com/Aryan6396" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i> GitHub
               </a>
-              <a href="https://linkedin.com/in/aryan-tyagi" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/aryan-tyagi-088738229" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin"></i> LinkedIn
               </a>
               <a href="mailto:attyagi101@gmail.com" target="_blank" rel="noopener noreferrer">
