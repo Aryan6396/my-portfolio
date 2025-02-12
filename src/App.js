@@ -4,6 +4,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Experience from './components/experience';
 import Skills from './components/Skills';
+import Certifications from './components/Certificate';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -14,7 +15,7 @@ import './styles.css';
 
 
 
-// Inside the App function, include the Experience section
+
 function App() {
   return (
     <div>
@@ -22,7 +23,8 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Experience /> {/* Add this line */}
+      <Experience />
+      <Certifications /> 
       <Contact />
       <Footer />
     </div>

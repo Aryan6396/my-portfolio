@@ -1,20 +1,20 @@
 import React from 'react';
-import profileImage from '../assets/profile.png'; // Import the image
+import profileImage from '../assets/profile.png'; 
 
 const About = () => {
   return (
     <section id="about">
       <div className="container">
         <div className="row align-items-center">
-          {/* Image Section */}
+          
           <div className="col-lg-5 text-center">
             <img
-              src={profileImage} // Use the imported image here
+              src={profileImage} 
               alt="Aryan Tyagi"
               className="img-fluid rounded-circle shadow-lg"
             />
           </div>
-          {/* Text Section */}
+          
           <div className="col-lg-7">
             <h2 className="about-title">About Me</h2>
             <p className="about-text">
@@ -25,8 +25,8 @@ const About = () => {
             </p>
             <p className="about-text">
               My skill set spans across programming languages like <strong>C++</strong> and <strong>JavaScript</strong>, 
-              frameworks like <strong>React</strong>, and backend technologies like <strong>Node.js</strong> and 
-              <strong>Express.js</strong>. Whether it's crafting seamless user interfaces or building robust APIs, I 
+              frameworks like <strong>React</strong> and backend technologies like <strong>Node.js</strong> and 
+              <strong> Express.js</strong>. Whether it's crafting seamless user interfaces or building robust APIs, I 
               approach every project with precision and creativity.
             </p>
             <p className="about-text">
